@@ -1,0 +1,73 @@
+.searchHolder {
+  background-color: black;
+  padding: 0px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
+#searchHolder button {
+  height:25px;
+}
+
+#searchHolder input {
+  padding: 0;
+  height:25px;
+  font-size: large;
+  border: none;
+  border-radius: 3px;
+  width: calc(100vw - 300px);
+  min-width: 100px;
+}
+#feature{
+  position: fixed;
+  bottom: 0;
+}
+#sectionTwo{
+  padding-bottom: 100px;
+}
+
+@media(max-width:430px) {
+  .searchHolderDefault {
+    /* position: absolute;
+    top: 75px;
+    left: 10%;
+    right: 10%; */
+    width: 200px;
+  }
+
+}
+
+@media(max-width:700px) {
+  .textBox h1 {
+    font-size: 32px;
+  }
+
+  .navLinks {
+    position: absolute;
+    height: 100vh;
+    top: -1000px;
+    right: 0;
+    width: 100px;
+    background-color: black;
+    z-index: 2;
+    text-align: left;
+    transition: .9s;
+  }
+
+  .navLinks ul li,
+  .close,
+  .menu {
+    display: block;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+}
